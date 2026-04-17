@@ -1,0 +1,9 @@
+PS C:\Users\hm234\Downloads\Kafka> docker ps
+CONTAINER ID   IMAGE                          COMMAND        CREATED       STATUS       PORTS                                              NAMES
+e199f8a512a1   kafka-order-service            "./order-service"        24 minutes ago    Up 24 minutes   0.0.0.0:8080->8080/tcp                             order-service
+0df923250280   kafka-notification-service     "./notification-serv…"   24 minutes ago    Up 24 minutes                                                      notification-service
+df7704a737e9   kafka-audit-service            "./audit-service"        24 minutes ago    Up 24 minutes                                                      audit-service
+1b216fd2814e   kafka-payment-service          "./payment-service"      24 minutes ago    Up 24 minutes                                                      payment-service
+b5124a7c8ecf   provectuslabs/kafka-ui:latest  "/bin/sh -c 'java --…"   25 minutes ago    Up 25 minutes   0.0.0.0:8085->8080/tcp                             kafka-ui
+96ac1be4dd58   confluentinc/cp-kafka:7.5.0    "/etc/confluent/dock…"   25 minutes ago    Up 25 minutes   0.0.0.0:9092->9092/tcp, 0.0.0.0:29092->29092/tcp   kafka
+c80509dc7297   confluentinc/cp-zookeeper:7.5.0 "/etc/confluent/dock…"  25 minutes ago    Up 25 minutes   2888/tcp, 0.0.0.0:2181->2181/tcp, 3888/tcp         zookeeper

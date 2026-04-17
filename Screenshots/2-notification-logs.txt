@@ -1,0 +1,5 @@
+PS C:\Users\hm234\Downloads\Kafka> docker logs notification-service
+2026/04/17 15:13:41 Notification Service started
+2026/04/17 15:21:30 Notification: Payment Success for Order ord-1776439288566983264 (User: user123, Amount: 99.99)
+2026/04/17 15:30:12 Notification: Payment Success for Order ord-1776439810079984208 (User: user123, Amount: 99.99)
+2026/04/17 15:36:12 Notification: Payment Success for Order ord-1776441070838236271 (User: user123, Amount: 99.99)
